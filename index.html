@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motorcycles</title>
+  <link rel="stylesheet" href="template/css/style.css">
+  <link rel="shortcut icon" href="template/icon/icon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container-fluid">
+        <div class="background-main-logo">
+          <a class="navbar-brand" href="#"><img src="template/icon/icon.png" alt="main-logo">&nbsp Project 66</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><!--Para fixar a direita: ms-auto-->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#start">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About/about.html">Sobre</a>
+            </li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Categories/sport.html">Sport</a></li>
+                <li><a class="dropdown-item" href="Categories/cruiser.html">Cruiser</a></li>
+                <li><a class="dropdown-item" href="Categories/grand-american-touring.html">Grand American Touring</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="Categories/adventure-touring.html">Adventure Touring</a></li>
+              </ul>
+            </li>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Contato
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item whatsapp-logo" href="#"><img src="/template/svg/whatsapp.svg"
+                      alt="whatsapp.svg" style="width: 30px; height: auto;"> Whatsapp</a></li>
+                <li><a class="dropdown-item instagram-logo" href="#"><img src="/template/svg/instagram.svg"
+                      alt="instagram.svg" style="width: 30px; height: auto;"> Instagram</a></li>
+                <li><a class="dropdown-item facebook-logo" href="#"><img src="/template/svg/facebook.svg"
+                      alt="facebook.svg" style="width: 30px; height: auto;"> Facebook</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 text-center container" id="banner">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Seu texto aqui</h1>
+          <p class="lead text-muted">Algum texto curto para impactar os clientes ao acessarem a página pela primeira
+            vez, importante conter algo sobre a empresa.</p>
+          <p>
+            <a href="#container" class="btn btn-primary my-2">Ver Motos</a>
+            <a href="#footer" class="btn btn-secondary my-2">Entrar em contato</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container" id="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p class="card-text">Marca: </p>
+                <p class="card-text">Modelo:</p>
+                <p class="card-text">Categoria: </p>
+                <p class="card-text">Cor: </p>
+                <p class="card-text">Ano: </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#"></a> Tenho
+                      interesse</button>
+                  </div>
+                  <div class="btn-group" alt="div-cega"></div>
+                  <small class="text-muted">R$ 100.000,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p class="card-text">Marca: </p>
+                <p class="card-text">Modelo:</p>
+                <p class="card-text">Categoria: </p>
+                <p class="card-text">Cor: </p>
+                <p class="card-text">Ano: </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#"></a> Tenho
+                      interesse</button>
+                  </div>
+                  <div class="btn-group" alt="div-cega"></div>
+                  <small class="text-muted">R$ 100.000,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p class="card-text">Marca: </p>
+                <p class="card-text">Modelo:</p>
+                <p class="card-text">Categoria: </p>
+                <p class="card-text">Cor: </p>
+                <p class="card-text">Ano: </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#"></a> Tenho
+                      interesse</button>
+                  </div>
+                  <div class="btn-group" alt="div-cega"></div>
+                  <small class="text-muted">R$ 100.000,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p class="card-text">Marca: </p>
+                <p class="card-text">Modelo:</p>
+                <p class="card-text">Categoria: </p>
+                <p class="card-text">Cor: </p>
+                <p class="card-text">Ano: </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#"></a> Tenho
+                      interesse</button>
+                  </div>
+                  <div class="btn-group" alt="div-cega"></div>
+                  <small class="text-muted">R$ 100.000,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p class="card-text">Marca: </p>
+                <p class="card-text">Modelo:</p>
+                <p class="card-text">Categoria: </p>
+                <p class="card-text">Cor: </p>
+                <p class="card-text">Ano: </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#"></a> Tenho
+                      interesse</button>
+                  </div>
+                  <div class="btn-group" alt="div-cega"></div>
+                  <small class="text-muted">R$ 100.000,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="card-body">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                      class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                      aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                      aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/Motorcycles/pexels-filip-rankovic-grobgaard-13308538.jpg" class="d-block w-100"
+                        alt="photo3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <p class="card-text">Marca: </p>
+                <p class="card-text">Modelo:</p>
+                <p class="card-text">Categoria: </p>
+                <p class="card-text">Cor: </p>
+                <p class="card-text">Ano: </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="#"></a> Tenho
+                      interesse</button>
+                  </div>
+                  <div class="btn-group" alt="div-cega"></div>
+                  <small class="text-muted">R$ 100.000,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--Container-->
+      <footer class="footer mt-auto py-3 bg-light">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <div id="contatos">
+            <h6>Fale com um de nossos representantes:</h6>
+            <p>João: <a href="" style="padding-right: 5%;">(XX) 9 9999-9999</a>
+              Marcos: <a href="">(XX) 9 9999-9999</a></p>
+          </div>
+          © 2023 Copyright
+          <a class="text-dark" href="#"></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

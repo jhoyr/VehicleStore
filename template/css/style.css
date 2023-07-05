@@ -1,0 +1,87 @@
+.navbar-expand-lg {
+    font-weight: 600;
+    border-top-style: ridge;
+}
+
+.background-main-logo {
+    width: 51px;
+    height: auto;
+    background-color: rgb(63, 51, 42);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+[alt="main-logo"] {
+    width: 45px;
+    height: auto;
+    margin: 0;
+    background-color: rgb(97, 90, 85);
+    border-radius: 50%;
+}
+
+.themed-grid-col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+}
+
+.themed-container {
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+}
+
+#banner {
+    background-image: url(/template/banner/banner-66.png);
+    background-size: cover;
+    color: white;
+}
+
+.text-center p {
+    color: white !important;
+}
+
+#desc-moto,
+#desc-about {
+    color: black !important;
+}
+
+#sport,
+#cruiser,
+#grand-american-touring,
+#adventure-touring {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    /* IE */
+}
+
+#desc-about {
+    font-weight: 400 !important;
+    padding: 15px;
+    background-color: rgba(187, 187, 187, 0.5);
+}
+
+.border-in *{
+    box-sizing: border-box;
+    border: 5px solid rgba(0, 0, 0, .6);
+    border-style: groove;
+}
+
+.border-in h1 {
+    font-style: oblique;
+    font-weight: 600 !important;
+}
+
+.border {
+    background-image: url(/template/banner/banner-02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about-all {
+    padding: 0 !important;
+    max-width: 81rem !important;
+}
